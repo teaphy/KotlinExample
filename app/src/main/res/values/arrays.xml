@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="TodoArray">
+        <item>Anko_Dialog</item>
+        <item>Anko_Intent</item>
+        <item>Anko_Logger</item>
+        <item>Anko_Misc</item>
+    </string-array>
+</resources>
