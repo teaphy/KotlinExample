@@ -7,4 +7,12 @@
         <item>Anko_Logger</item>
         <item>Anko_Misc</item>
     </string-array>
+
+    <string-array name="AnkoDialogArray">
+        <item>toast("Hi there!")</item>
+        <item>toast(R.string.message)</item>
+        <item>longToast("Wow, such a duration")</item>
+        <item>longToast(R.string.message_long)</item>
+        <item>alert</item>
+    </string-array>
 </resources>

@@ -7,6 +7,11 @@ import com.teaphy.kotlinexample.R
 
 import kotlinx.android.synthetic.main.layout_tool_bar.*
 
+/**
+ * @desc KotlinForAndroid相关条目
+ * @author Teaphy
+ * @date 2017/5/22
+ */
 abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
