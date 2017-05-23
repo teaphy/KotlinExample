@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.layout_tool_bar.*
  * @author Teaphy
  * @date 2017/5/22
  */
+@Suppress("DEPRECATION")
 abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,6 +1,5 @@
 package com.teaphy.kotlinexample.ui.activity
 
-import android.content.Intent
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import com.teaphy.kotlinexample.R
@@ -9,6 +8,8 @@ import com.teaphy.kotlinexample.ui.adapter.TodoAdapter
 import com.teaphy.kotlinexample.ui.callback.OnItemClickCallback
 
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
 /**
@@ -54,16 +55,11 @@ class MainActivity : BaseActivity() {
 
     private fun handleJump(pos: Int) {
         when (pos) {
-            0 -> jumpDialogActivity() // Dialog
-            1 -> {} // Intent
+            0 -> startActivity(intentFor<AnkoDialogActivity>()) // Dialog
+            1 -> startActivity<AnkoIntentActivity>()// Intent
             2 -> {} // Logger
             3 -> {} // Misc
             else -> {toast(R.string.invalid_operation)}
         }
-    }
-
-    private fun jumpDialogActivity() {
-        val intent = Intent(this, DialogActivity::class.java)
-        startActivity(intent)
     }
 }

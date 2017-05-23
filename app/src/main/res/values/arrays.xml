@@ -13,6 +13,9 @@
         <item>toast(R.string.message)</item>
         <item>longToast("Wow, such a duration")</item>
         <item>longToast(R.string.message_long)</item>
-        <item>alert</item>
+        <item>Alert Dialog</item>
+        <item>Alert Dialog - CustomView</item>
+        <item>Selectors Dialog</item>
+        <item>Progress Dialogs</item>
     </string-array>
 </resources>
