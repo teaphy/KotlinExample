@@ -6,6 +6,7 @@ import com.teaphy.kotlinexample.R
 import com.teaphy.kotlinexample.ui.Base.BaseActivity
 
 import kotlinx.android.synthetic.main.activity_test_a.*
+import org.jetbrains.anko.dip
 
 /**
  * @desc  测试 启动新的Activity 调用
@@ -28,6 +29,7 @@ class TestAActivity : BaseActivity() {
     }
 
     override fun initData() {
+
     }
 
     override fun initView() {
