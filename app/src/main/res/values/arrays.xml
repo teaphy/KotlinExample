@@ -18,4 +18,14 @@
         <item>Selectors Dialog</item>
         <item>Progress Dialogs</item>
     </string-array>
+
+    <string-array name="AnkoIntentArray">
+        <item>intent with flag</item>
+        <item>intent with out flag</item>
+        <item>makeCall</item>
+        <item>sendSMS</item>
+        <item>browse</item>
+        <item>share</item>
+        <item>email</item>
+    </string-array>
 </resources>

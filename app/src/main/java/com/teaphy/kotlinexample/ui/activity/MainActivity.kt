@@ -8,9 +8,7 @@ import com.teaphy.kotlinexample.ui.adapter.TodoAdapter
 import com.teaphy.kotlinexample.ui.callback.OnItemClickCallback
 
 import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.intentFor
-import org.jetbrains.anko.startActivity
-import org.jetbrains.anko.toast
+import org.jetbrains.anko.*
 
 /**
  * @desc KotlinForAndroid相关条目
@@ -19,11 +17,20 @@ import org.jetbrains.anko.toast
  */
 class MainActivity : BaseActivity() {
 
+    private val log = AnkoLogger(MainActivity::class.java)
+
     var mAdapter: TodoAdapter? = null
     var mList: MutableList<String> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        log.verbose { "问心无愧" }
+        log.debug { "问心无愧" }
+        log.info { "问心无愧" }
+        log.warn { "问心无愧" }
+        log.error { "问心无愧" }
+        log.wtf("问心无愧")
 
     }
 
@@ -51,6 +58,7 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setListener() {
+
     }
 
     private fun handleJump(pos: Int) {
