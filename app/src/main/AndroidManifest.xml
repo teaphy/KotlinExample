@@ -3,10 +3,9 @@
     package="com.teaphy.kotlinexample">
 
     <!-- 网络权限 -->
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <!-- 拨打电话发短信 -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
-
 
     <application
         android:allowBackup="true"
@@ -25,7 +24,8 @@
         <activity android:name=".ui.activity.AnkoDialogActivity" />
         <activity android:name=".ui.activity.AnkoIntentActivity" />
         <activity android:name=".ui.activity.TestAActivity" />
-        <activity android:name=".ui.activity.TestBActivity"></activity>
+        <activity android:name=".ui.activity.TestBActivity" />
+        <activity android:name=".ui.activity.AnkoCoroutinesActivity"></activity>
     </application>
 
 </manifest>
