@@ -4,8 +4,7 @@
     <string-array name="TodoArray">
         <item>Anko_Dialog</item>
         <item>Anko_Intent</item>
-        <item>Anko_Logger</item>
-        <item>Anko_Misc</item>
+        <item>AnkoCoroutines</item>
     </string-array>
 
     <string-array name="AnkoDialogArray">
@@ -17,5 +16,15 @@
         <item>Alert Dialog - CustomView</item>
         <item>Selectors Dialog</item>
         <item>Progress Dialogs</item>
+    </string-array>
+
+    <string-array name="AnkoIntentArray">
+        <item>intent with flag</item>
+        <item>intent with out flag</item>
+        <item>makeCall</item>
+        <item>sendSMS</item>
+        <item>browse</item>
+        <item>share</item>
+        <item>email</item>
     </string-array>
 </resources>
